@@ -48,7 +48,6 @@
 ### 🤖 AI & ML Engineering
 | Project | Description | Live |
 |---------|-------------|------|
-| **[Code Review Agent](https://github.com/vaishnavi1064/Code-Review-Agent)** | AI-powered personalized code review using RAG + FAISS + Groq LLM. Learns your coding fingerprint from GitHub and reviews new code against your personal patterns. | [🔗 Live Demo](https://code-review-agent-v10.streamlit.app/) |
 | **[Autonomous Fleet Monitoring](https://github.com/vaishnavi1064/Autonomous-Fleet-Monitoring)** | Fleet monitoring system with real-time data processing | — |
 | **[Sentiment Analysis using NLP](https://github.com/vaishnavi1064/Sentiment-Analysis-using-NLP)** | NLP-based sentiment classification pipeline | — |
 | **[Chatbot](https://github.com/vaishnavi1064/Chatbot)** | AI-powered conversational chatbot | — |
