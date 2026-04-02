@@ -45,13 +45,17 @@
 
 ## 🚀 Featured Projects
 
+Replace your current AI & ML Engineering table with this:
+
 ### 🤖 AI & ML Engineering
 | Project | Description | Live |
 |---------|-------------|------|
 | **[Code Review Agent](https://github.com/vaishnavi1064/Code-Review-Agent)** | AI-powered personalized code review using RAG + FAISS + Groq LLM. Learns your coding fingerprint from GitHub and reviews new code against your personal patterns. | [🔗 Live Demo](https://code-review-agent-v10.streamlit.app/) |
+| **[Third Place Finder](https://github.com/vaishnavi1064/Third-Place-Finder-Web)** | Full-stack AI recommendation engine using React, TypeScript, Node.js, Express, MySQL, and Groq LLM (Llama 3.3 70B). Features multi-stage RAG pipeline, fault-tolerant LLM integration, and interactive map visualization with Leaflet. | [🔗 Live Demo](https://third-place-finder-web.vercel.app/) |
 | **[Autonomous Fleet Monitoring](https://github.com/vaishnavi1064/Autonomous-Fleet-Monitoring)** | Fleet monitoring system with real-time data processing | — |
 | **[Sentiment Analysis using NLP](https://github.com/vaishnavi1064/Sentiment-Analysis-using-NLP)** | NLP-based sentiment classification pipeline | — |
 | **[Chatbot](https://github.com/vaishnavi1064/Chatbot)** | AI-powered conversational chatbot | — |
+
 
 ### 📊 Data Science & Predictive Analytics
 | Project | Description |
