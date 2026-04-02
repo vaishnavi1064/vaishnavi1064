@@ -37,7 +37,7 @@
 
 ## 🚀 Featured Projects
 
-Replace your current AI & ML Engineering table with this:
+
 
 ### 🤖 AI & ML Engineering
 | Project | Description | Live |
