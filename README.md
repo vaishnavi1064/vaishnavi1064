@@ -32,14 +32,6 @@
   <img src="https://img.shields.io/badge/IBM_Cloud-054ADA?style=for-the-badge&logo=ibm&logoColor=white" />
 </p>
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vaishnavi1064&show_icons=true&theme=radical&count_private=true&cache_seconds=86400" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaishnavi1064&layout=compact&theme=radical&cache_seconds=86400" width="49%"/>
-</p>
 
 ---
 
