@@ -15,10 +15,10 @@
 ### `✦ mission log`
 
 ```yaml
-role: AI/ML Engineer & Researcher
+role: Software Engineer & AI/ML Systems Builder
 location: Seattle, WA
 education: M.S. Computer Science @ Northeastern (Khoury College)
-focus: Multi-Agent Systems, RAG Pipelines, ML Evaluation, Vector Retrieval
+focus: Full-Stack Systems, Agentic AI, Multi-Agent Orchestration, RAG Pipelines, MCP Integration
 research: Active — Generative AI
 status: Open to Summer / Fall 2026 internships
 ```
