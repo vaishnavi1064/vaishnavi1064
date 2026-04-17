@@ -16,7 +16,7 @@
 
 ```yaml
 role: Software Engineer & AI/ML Systems Builder
-location: Seattle, WA
+location: Seattle, WA (Open to Relocate)
 education: M.S. Computer Science @ Northeastern (Khoury College)
 focus: Full-Stack Systems, Agentic AI, Multi-Agent Orchestration, RAG Pipelines, MCP Integration
 research: Active — Generative AI
