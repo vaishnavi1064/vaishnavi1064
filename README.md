@@ -24,7 +24,7 @@ role: AI/ML Engineer & Researcher
 location: Seattle, WA
 education: M.S. Computer Science @ Northeastern (Khoury College)
 focus: Multi-Agent Systems, RAG Pipelines, ML Evaluation, Vector Retrieval
-research: Active — Generative AI (faculty-supervised, targeting publication)
+research: Active — Generative AI 
 status: Open to Summer / Fall 2026 internships
 ```
 
