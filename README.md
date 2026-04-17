@@ -1,13 +1,8 @@
-<!-- Header -->
 <div align="center">
+  <img src="./header.svg" width="100%" alt="Vaishnavi Chaughule — AI/ML Engineer" />
+</div>
 
-# Vaishnavi Chaughule
-
-<a href="https://github.com/vaishnavi1064">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&height=30&lines=building+research-grounded+AI+agent+systems;shipping+multi-agent+orchestration+to+production;turning+papers+into+working+code" alt="Typing SVG" />
-</a>
-
-**M.S. Computer Science** · Northeastern University, Seattle · GPA: 3.67
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnavichaughule)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vaishnavi10chaughule@gmail.com)
@@ -15,26 +10,26 @@
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
-### `> about me`
+### `✦ mission log`
 
 ```yaml
 role: AI/ML Engineer & Researcher
 location: Seattle, WA
 education: M.S. Computer Science @ Northeastern (Khoury College)
 focus: Multi-Agent Systems, RAG Pipelines, ML Evaluation, Vector Retrieval
-research: Active — Generative AI 
+research: Active — Generative AI
 status: Open to Summer / Fall 2026 internships
 ```
 
----
+<img src="./divider.svg" width="100%" />
 
-### `> tech stack`
+### `✦ orbital stack`
 
 <table>
 <tr>
-<td><b>AI/ML & Agents</b></td>
+<td>☀️ <b>AI/ML Core</b></td>
 <td>
 <img src="https://img.shields.io/badge/Groq-FF6B35?style=flat-square&logoColor=white" />
 <img src="https://img.shields.io/badge/Jina_Embeddings-009688?style=flat-square&logoColor=white" />
@@ -47,7 +42,7 @@ status: Open to Summer / Fall 2026 internships
 </td>
 </tr>
 <tr>
-<td><b>Languages & Backend</b></td>
+<td>🪐 <b>Languages & Backend</b></td>
 <td>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
@@ -61,7 +56,7 @@ status: Open to Summer / Fall 2026 internships
 </td>
 </tr>
 <tr>
-<td><b>Infrastructure</b></td>
+<td>🌌 <b>Infrastructure</b></td>
 <td>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
@@ -74,15 +69,15 @@ status: Open to Summer / Fall 2026 internships
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%" />
 
-### `> featured projects`
+### `✦ star systems` — projects
 
 <table>
 <tr>
 <td width="50%">
 
-**[PersonaCR](https://github.com/vaishnavi1064/PersonaCR)** — Multi-Agent Code Review
+🪐 **[PersonaCR](https://github.com/vaishnavi1064/PersonaCR)** — Multi-Agent Code Review
 <br>`FastAPI` `React` `TypeScript` `Groq` `Jina` `ChromaDB` `MCP`
 
 6-agent system that learns your **coding fingerprint** and reviews code against your own patterns. Research-grounded in 9 papers (EMNLP, NAACL, ACL). Parallel agent execution (~48% latency savings), CRScore-inspired ML quality gate, MCP server for IDE integration. **~8.5s end-to-end.**
@@ -90,7 +85,7 @@ status: Open to Summer / Fall 2026 internships
 </td>
 <td width="50%">
 
-**[Third-Place-Finder](https://github.com/vaishnavi1064/Third-Place-Finder-Web)** — AI Recommendation Engine
+🌍 **[Third-Place-Finder](https://github.com/vaishnavi1064/Third-Place-Finder-Web)** — AI Recommendation Engine
 <br>`React` `TypeScript` `Node.js` `Groq` `Leaflet` · [Live Demo](https://third-place-finder-web.vercel.app/)
 
 Multi-stage RAG pipeline mapping natural language to structured categories, ranking top 10 with LLM rationale. Fault-tolerant integration with exponential backoff and anti-hallucination prompting. Deployed on Vercel + Render + Aiven.
@@ -100,7 +95,7 @@ Multi-stage RAG pipeline mapping natural language to structured categories, rank
 <tr>
 <td width="50%">
 
-**[OULAD Analytics Engine](https://github.com/vaishnavi1064/OULAD-Concurrent-Data-Analytics-Engine)** — Concurrent Data Pipeline
+🌕 **[OULAD Analytics Engine](https://github.com/vaishnavi1064/OULAD-Concurrent-Data-Analytics-Engine)** — Concurrent Data Pipeline
 <br>`Java` `Multithreading` `BlockingQueue` `JUnit 5`
 
 Processes **10.6M rows at 2.1M rows/sec** using producer-consumer architecture. 94% instruction coverage, 88% branch coverage with 51 tests including race condition harnesses. 3-person team.
@@ -108,7 +103,7 @@ Processes **10.6M rows at 2.1M rows/sec** using producer-consumer architecture. 
 </td>
 <td width="50%">
 
-**[Forest Fire Prediction](https://github.com/vaishnavi1064/Forest-Fire-prediction)** — ML Risk Prediction
+☄️ **[Forest Fire Prediction](https://github.com/vaishnavi1064/Forest-Fire-prediction)** — ML Risk Prediction
 <br>`Python` `Scikit-learn` `Django`
 
 Wildfire prediction using 36K+ satellite records. R² improved 0.65→0.68 via RandomizedSearchCV. Model compressed from 700MB→93MB. Deployed via Django for real-time inference.
@@ -117,35 +112,41 @@ Wildfire prediction using 36K+ satellite records. R² improved 0.65→0.68 via R
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%" />
 
-### `> experience`
+### `✦ flight log` — experience
 
-| Role | Company | What I did |
-|------|---------|------------|
+| Role | Station | Mission |
+|------|---------|---------|
 | **AI/ML Intern** | IBM SkillsBuild | Built supervised ML models for healthcare risk prediction + IBM Cognos dashboards |
 | **Android Dev Intern** | Google for Developers | Kotlin + MVVM apps with SQLite, REST APIs, unit & UI testing |
 
----
+<img src="./divider.svg" width="100%" />
 
-### `> leadership`
+### `✦ command crew` — leadership
 
 **Program Manager** — GameCube Club, Northeastern · **Cloud Computing Lead** — Google Developer Groups · **Event Co-Lead** — GDSC
 
----
+<img src="./divider.svg" width="100%" />
 
-### `> contributions`
+### `✦ signal map` — contributions
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-blue.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-blue.svg" width="100%" />
+  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-view.svg" width="100%" />
 </picture>
 
-<br><br>
+<br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi1064&theme=react-dark&hide_border=true&area=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
 
+</div>
+
+<img src="./divider.svg" width="100%" />
+
+<div align="center">
+  <sub>✦ transmitting from seattle · open to new orbits ✦</sub>
 </div>
