@@ -129,19 +129,11 @@ Wildfire prediction using 36K+ satellite records. R² improved 0.65→0.68 via R
 
 <img src="./divider.svg" width="100%" />
 
-### `✦ signal map` — contributions
+### `✦ signal map`
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-view.svg" width="100%" />
-</picture>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi1064&theme=react-dark&hide_border=true&area=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi1064&theme=react-dark&hide_border=true&area=true&bg_color=0B0D17&color=93C5FD&line=7C3AED&point=A78BFA&area_color=58A6FF" width="100%" />
 
 </div>
 
