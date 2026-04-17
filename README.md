@@ -80,7 +80,7 @@ status: Open to Summer / Fall 2026 internships
 🪐 **[PersonaCR](https://github.com/vaishnavi1064/PersonaCR)** — Multi-Agent Code Review
 <br>`FastAPI` `React` `TypeScript` `Groq` `Jina` `ChromaDB` `MCP`
 
-6-agent system that learns your **coding fingerprint** and reviews code against your own patterns. Research-grounded in 9 papers (EMNLP, NAACL, ACL). Parallel agent execution (~48% latency savings), CRScore-inspired ML quality gate, MCP server for IDE integration. **~8.5s end-to-end.**
+6-agent system that learns your **coding fingerprint** and reviews code against your own patterns not generic rules. Research-grounded in 9 papers (EMNLP, NAACL, ACL). Parallel agent execution (~48% latency savings), CRScore-inspired ML quality gate (~69ms validation). Exposes full pipeline via **MCP server** (SSE transport) for direct Cursor/VS Code integration. **~8.5s end-to-end.**
 
 </td>
 <td width="50%">
