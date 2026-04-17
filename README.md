@@ -39,6 +39,8 @@ status: Open to Summer / Fall 2026 internships
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
 <img src="https://img.shields.io/badge/MCP-58A6FF?style=flat-square&logoColor=white" />
 <img src="https://img.shields.io/badge/RAG-1a1a2e?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Asyncio-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Prompt_Engineering-8B5CF6?style=flat-square&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -52,7 +54,9 @@ status: Open to Summer / Fall 2026 internships
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -63,12 +67,13 @@ status: Open to Summer / Fall 2026 internships
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" />
+<img src="https://img.shields.io/badge/Aiven-FF3554?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </td>
 </tr>
 </table>
-
 <img src="./divider.svg" width="100%" />
 
 ### `✦ star systems` — projects
