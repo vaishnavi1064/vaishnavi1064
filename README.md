@@ -137,8 +137,6 @@ Wildfire prediction using 36K+ satellite records. R² improved 0.65→0.68 via R
 
 </div>
 
-<img src="./divider.svg" width="100%" />
-
 <div align="center">
-  <sub>✦ transmitting from seattle · open to new orbits ✦</sub>
+  <img src="./footer.svg" width="100%" />
 </div>
