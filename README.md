@@ -182,11 +182,7 @@ Co-authored *"Who Makes the Decision? Evaluator Validity in an Agentic Bitcoin T
 
 ### `✦ signal map`
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi1064&theme=react-dark&hide_border=true&area=true&bg_color=0B0D17&color=93C5FD&line=7C3AED&point=A78BFA&area_color=58A6FF" width="100%" />
-
-</div>
+<img src="https://activity-graph.vercel.app/graph?username=vaishnavi1064&theme=react-dark&hide_border=true&area=true&bg_color=0B0D17&color=93C5FD&line=7C3AED&point=A78BFA&area_color=58A6FF" width="100%" />
 
 <div align="center">
   <img src="./footer.svg" width="100%" />
