@@ -15,13 +15,29 @@
 ### `✦ mission log`
 
 ```yaml
-role: Software Engineer · AI/ML & Streaming Systems Builder
+role: Software Engineer · Backend, Distributed Systems & AI/ML
 location: Seattle, WA (Open to Relocate)
-education: M.S. Computer Science @ Northeastern (Khoury College)
+education: M.S. Computer Science @ Northeastern (Khoury College) · GPA 3.83
 focus: Real-Time Streaming, Exactly-Once Systems, Agentic AI, RAG Pipelines, MCP Integration
-research: Agentic Bitcoin AML monitoring · NeurIPS 2026 JUDGe workshop (submitted)
-status: Open to 2026-2027 SWE / AI-ML / Data-Platform roles (co-op + full-time)
+research: Which component actually makes the decision? Evaluator validity in agentic Bitcoin AML monitoring · InsightX Lab
+open_to: SWE · Backend / Distributed Systems · AI/ML · Data Platform
+availability: Spring/Summer 2027 Co-op & Internships (Jan to Aug 2027, onsite) · Full-Time 2027
 ```
+
+<img src="./divider.svg" width="100%" />
+
+### `✦ open channels` · roles & availability
+
+| Looking for | When |
+|-------------|------|
+| **Co-op** (full-time, onsite) | Spring/Summer 2027 · Jan to Aug 2027 |
+| **Internship** | Spring or Summer 2027 |
+| **Full-Time** | 2027 new-grad roles |
+
+**Roles:** Software Engineering · Backend & Distributed Systems · AI/ML Engineering · Data Platform · Applied AI Research
+
+📧 [vaishnavi10chaughule@gmail.com](mailto:vaishnavi10chaughule@gmail.com) · Seattle, WA · Open to relocation
+
 
 <img src="./divider.svg" width="100%" />
 
@@ -157,26 +173,37 @@ Multi-stage RAG pipeline mapping natural language to structured categories, rank
 
 <img src="./divider.svg" width="100%" />
 
-### `✦ deep space` — research & publications
+### `✦ deep space` · research
 
 **Agentic Bitcoin Transaction Monitoring** · InsightX Lab, Northeastern (Prof. Divya Chaudhary)
 
-Co-authored *"Who Makes the Decision? Evaluator Validity in an Agentic Bitcoin Transaction-Monitoring Pipeline,"* submitted to the **NeurIPS 2026 JUDGe workshop**. Built a Bitcoin illicit-transaction detector from scratch using a **Bi-EvolveGCN-O** temporal graph encoder (5-seed ensemble, per-timestep recalibration): **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it. Added a **multi-agent RAG compliance layer** that retrieves FATF / FinCEN / OFAC clauses and an entailment gate that verifies retrieved regulation before a case report is finalized.
+I lead evaluation and research methods for a multi-agent AML pipeline that combines a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF / FinCEN / OFAC regulations, with an entailment gate that verifies retrieved regulation before a case report is finalized. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it.
+
+My focus is a question most AI evaluations skip: **when a system makes a decision, which component actually made it?** I'm developing a method to trace that, and it has already changed how we read our own results:
+
+- A system that looked accurate end to end was letting **a fixed rule make every decision while the LLM got the credit**.
+- It surfaced a **silent configuration bug**: prompts were being cut off, and **82% of cases got no verdict at all**.
+- An effort-planning component cost **1.68x more in API calls for no quality gain**.
+
+Working paper: *"Who Makes the Decision? Evaluator Validity in an Agentic Bitcoin Transaction-Monitoring Pipeline."*
 
 <img src="./divider.svg" width="100%" />
 
-### `✦ flight log` — experience
+### `✦ flight log` · experience
 
 | Role | Station | Mission |
 |------|---------|---------|
+| **Graduate Researcher** · Evaluation & Research Methods Lead | InsightX Lab, Northeastern | Component-level evaluation of a multi-agent GNN + LLM + RAG AML pipeline; traced which component drives each decision |
+| **Co-Founder** | Dory.md | Co-founded at a hackathon, then solo-rebuilt the full product (frontend, backend, AI layer); live on Vercel + Render |
 | **AI/ML Intern** | IBM SkillsBuild | Built supervised ML models for healthcare risk prediction + IBM Cognos dashboards |
-| **Android Dev Intern** | Google for Developers | Kotlin + MVVM apps with SQLite, REST APIs, unit & UI testing |
-
+| **Android Developer Program** | Google for Developers | Built an ERP app in Kotlin with MVVM, SQLite, REST APIs, unit & UI testing |
 <img src="./divider.svg" width="100%" />
 
-### `✦ command crew` — leadership
+### `✦ command crew` · leadership & community
 
-**Program Manager** · GameCube Club, Northeastern &nbsp;·&nbsp; **Cloud Computing Lead** · Google Developer Groups &nbsp;·&nbsp; **Event Co-Lead** · GDSC
+**Program Manager** · GameCube Club, Northeastern &nbsp;·&nbsp; **Cloud Computing Lead** · Google Developer Groups &nbsp;·&nbsp; **Event Co-Lead** · Google Developer Student Clubs
+
+**Volunteer** · Seattle tech meetups &nbsp;·&nbsp; Women in Tech Regatta
 
 <img src="./divider.svg" width="100%" />
 
