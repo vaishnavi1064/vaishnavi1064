@@ -19,10 +19,29 @@ role: Software Engineer · Backend, Distributed Systems & AI/ML
 location: Seattle, WA (Open to Relocate)
 education: M.S. Computer Science @ Northeastern (Khoury College) · GPA 3.83
 focus: Real-Time Streaming, Exactly-Once Systems, Agentic AI, RAG Pipelines, MCP Integration
-research: Which component actually makes the decision? Evaluator validity in agentic Bitcoin AML monitoring · InsightX Lab
+publication: First author · BANDIT Workshop @ IEEE BigData 2026 (accepted)
+open_source: PyTorch contributor · TorchDynamo & torch.distributions
+research: Which component actually makes the decision? Auditing agentic LLM pipelines for AML · InsightX Lab
 open_to: SWE · Backend / Distributed Systems · AI/ML · Data Platform
 availability: Spring/Summer 2027 Co-op & Internships (Jan to Aug 2027, onsite) · Full-Time 2027
 ```
+
+<img src="./divider.svg" width="100%" />
+
+### `✦ recent launches` · publications & open source
+
+📄 **Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring**
+<br>First author · **BANDIT Workshop @ IEEE BigData 2026** · accepted Nov 2026
+<br>Decision-source attribution for a GNN + RAG + LLM-judge AML pipeline on Elliptic++ and IBM AMLworld. With evidence held byte-identical and only the upstream score changed, verdicts flipped from **0/20 to 20/20**.
+
+🔥 **Open Source: [PyTorch](https://github.com/pytorch/pytorch)** (Oct 2026 to present)
+
+| Status | Contribution |
+|--------|--------------|
+| ✅ Merged | Fix flaky Wishart distribution test in `torch.distributions` ([#201929](https://github.com/pytorch/pytorch/pull/201929)) |
+| 🔄 Open | TorchDynamo fix for read-only function attributes ([#201925](https://github.com/pytorch/pytorch/pull/201925)) |
+| 🔄 Open | `torch.distributions` flaky test fix ([#201937](https://github.com/pytorch/pytorch/pull/201937)) |
+| 🐛 Reported | TorchDynamo bug ([#202350](https://github.com/pytorch/pytorch/issues/202350)) |
 
 <img src="./divider.svg" width="100%" />
 
@@ -110,7 +129,7 @@ availability: Spring/Summer 2027 Co-op & Internships (Jan to Aug 2027, onsite) �
 
 <img src="./divider.svg" width="100%" />
 
-### `✦ star systems` — projects
+### `✦ star systems` · projects
 
 <table>
 <tr>
@@ -124,7 +143,7 @@ Production-shaped streaming platform with **provable exactly-once processing** (
 </td>
 <td width="50%">
 
-🪐 **[PersonaCR](https://github.com/vaishnavi1064/PersonaCR)** · Multi-Agent Code Review
+🪐 **[PersonaCR](https://github.com/vaishnavi1064/PersonaCR)** · Multi-Agent Code Review · [Live Demo](https://personacr.northcentralus.cloudapp.azure.com/)
 <br>`FastAPI` `React` `TypeScript` `Groq` `Jina` `ChromaDB` `MCP`
 
 6-agent system that learns your **coding fingerprint** and reviews code against your own patterns, not generic rules. Research-grounded in 9 papers (EMNLP, NAACL, ACL). Parallel agent execution (~48% latency savings), CRScore-inspired ML quality gate (~69ms validation). Exposes the full pipeline via an **MCP server** (SSE transport) for direct Cursor / VS Code integration. **~8.5s end-to-end.**
@@ -142,7 +161,7 @@ Re-implemented a 2025 sliding-window Approximate-KDE sketch (RACE + exponential 
 </td>
 <td width="50%">
 
-🧠 **[Dory.md](https://github.com/vaishnavi1064)** · Memory-Aware Notes (RAG + Spaced Repetition)
+🧠 **[Dory.md](https://github.com/vaishnavi1064/Dory.md)** · Memory-Aware Notes (RAG + Spaced Repetition) · [Live Demo](https://dory-md.vercel.app/)
 <br>`React` `TypeScript` `FastAPI` `ChromaDB` `RAG` `FSRS-4`
 
 Full-stack notes app that scores **how fast you're forgetting each note** (Ebbinghaus forgetting curve) and uses that decay signal to re-rank semantic search, schedule FSRS-4 reviews, and generate quizzes from your weakest material. FastAPI + dual SQLite/ChromaDB store with MiniLM embeddings, **43 API routes**, an 11-page React SPA (**8,170 lines TS/TSX**), **92 tests**, JWT auth with rotation, per-user isolation, and GDPR export.
@@ -177,15 +196,15 @@ Multi-stage RAG pipeline mapping natural language to structured categories, rank
 
 **Agentic Bitcoin Transaction Monitoring** · InsightX Lab, Northeastern (Prof. Divya Chaudhary)
 
-I lead evaluation and research methods for a multi-agent AML pipeline that combines a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF / FinCEN / OFAC regulations, with an entailment gate that verifies retrieved regulation before a case report is finalized. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it.
+I lead evaluation and research methods for a multi-agent AML pipeline that combines a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF / FinCEN / OFAC regulations, with an entailment gate that verifies retrieved regulation before a case report is finalized. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it. I also ported the full pipeline to **IBM AMLworld** as a second dataset.
 
-My focus is a question most AI evaluations skip: **when a system makes a decision, which component actually made it?** I'm developing a method to trace that, and it has already changed how we read our own results:
+My focus is a question most AI evaluations skip: **when a system makes a decision, which component actually made it?** I designed a three-layer causal attribution method (actual cause, interventional Shapley, mediation) to trace that, and it changed how we read our own results:
 
-- A system that looked accurate end to end was letting **a fixed rule make every decision while the LLM got the credit**.
-- It surfaced a **silent configuration bug**: prompts were being cut off, and **82% of cases got no verdict at all**.
+- A system that looked accurate end to end was letting **a fixed rule make every decision while the LLM got the credit**. With evidence held identical and only the upstream score changed, verdicts flipped from **0/20 to 20/20**.
+- It surfaced a **silent configuration bug**: prompts were being cut off, and **70% of cases got no verdict at all**. Fixing it took the verdict rate from 30% to 100%.
 - An effort-planning component cost **1.68x more in API calls for no quality gain**.
 
-Working paper: *"Who Makes the Decision? Evaluator Validity in an Agentic Bitcoin Transaction-Monitoring Pipeline."*
+📄 **Paper (first author, accepted):** *"Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring,"* BANDIT Workshop @ IEEE BigData 2026.
 
 <img src="./divider.svg" width="100%" />
 
@@ -193,10 +212,12 @@ Working paper: *"Who Makes the Decision? Evaluator Validity in an Agentic Bitcoi
 
 | Role | Station | Mission |
 |------|---------|---------|
-| **Graduate Researcher** · Evaluation & Research Methods Lead | InsightX Lab, Northeastern | Component-level evaluation of a multi-agent GNN + LLM + RAG AML pipeline; traced which component drives each decision |
-| **Co-Founder** | Dory.md | Co-founded at a hackathon, then solo-rebuilt the full product (frontend, backend, AI layer); live on Vercel + Render |
+| **Graduate Researcher** · Evaluation & Research Methods Lead | InsightX Lab, Northeastern | First author, IEEE BigData 2026 workshop paper; built decision-source attribution for a multi-agent GNN + LLM + RAG AML pipeline |
+| **Open Source Contributor** | PyTorch | Merged fix in `torch.distributions`; open TorchDynamo PR and bug report |
+| **Co-Founder** | Dory.md | Solo-rebuilt the full product (frontend, backend, AI layer); live on Vercel + Render |
 | **AI/ML Intern** | IBM SkillsBuild | Built supervised ML models for healthcare risk prediction + IBM Cognos dashboards |
 | **Android Developer Program** | Google for Developers | Built an ERP app in Kotlin with MVVM, SQLite, REST APIs, unit & UI testing |
+
 <img src="./divider.svg" width="100%" />
 
 ### `✦ command crew` · leadership & community
