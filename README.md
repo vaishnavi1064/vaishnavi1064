@@ -196,13 +196,14 @@ Multi-stage RAG pipeline mapping natural language to structured categories, rank
 
 **Agentic Bitcoin Transaction Monitoring** · InsightX Lab, Northeastern (Prof. Divya Chaudhary)
 
-I lead evaluation and research methods for a multi-agent AML pipeline that combines a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF / FinCEN / OFAC regulations, with an entailment gate that verifies retrieved regulation before a case report is finalized. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it. I also ported the full pipeline to **IBM AMLworld** as a second dataset.
+I lead evaluation and research methods for a multi-agent AML pipeline: a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF, FinCEN, and EU AML text, with an entailment gate on retrieved regulation. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it (F1 0.61). I also ported the full pipeline to **IBM AMLworld** as a second dataset.
 
-My focus is a question most AI evaluations skip: **when a system makes a decision, which component actually made it?** I designed a three-layer causal attribution method (actual cause, interventional Shapley, mediation) to trace that, and it changed how we read our own results:
+My focus is a question most AI evaluations skip: **when a system makes a decision, which component actually made it?** I designed decision-source attribution, a causal method (actual cause, interventional Shapley, mediation) that traces this, and it changed how we read our own results:
 
-- A system that looked accurate end to end was letting **a fixed rule make every decision while the LLM got the credit**. With evidence held identical and only the upstream score changed, verdicts flipped from **0/20 to 20/20**.
-- It surfaced a **silent configuration bug**: prompts were being cut off, and **70% of cases got no verdict at all**. Fixing it took the verdict rate from 30% to 100%.
-- An effort-planning component cost **1.68x more in API calls for no quality gain**.
+- **A fixed rule made every decision while the LLM got the credit.** With evidence held identical and only the upstream score changed, verdicts flipped from **0/20 to 20/20**. This replicated on AMLworld: the rule drove **8/8** recoveries and the LLM alone **0/20**.
+- **A silent configuration bug cut prompts off**, and **82% of cases got no verdict**. Fixing the context length restored verdicts in **120/120** cases.
+- **An effort-planning component cost 1.68x more** in API calls for no quality gain.
+- **I audited two published pipelines** (RiskTagger, WWW 2026; OCR-APT, ACM CCS 2025) for the same failure.
 
 📄 **Paper (first author, accepted):** *"Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring,"* BANDIT Workshop @ IEEE BigData 2026.
 
