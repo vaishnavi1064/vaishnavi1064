@@ -20,7 +20,7 @@ location: Seattle, WA (Open to Relocate)
 education: M.S. Computer Science @ Northeastern (Khoury College) · GPA 3.83
 focus: Real-Time Streaming, Exactly-Once Systems, Agentic AI, RAG Pipelines, MCP Integration
 publication: First author · BANDIT Workshop @ IEEE BigData 2026 (accepted)
-open_source: PyTorch contributor · TorchDynamo & torch.distributions
+open_source: PyTorch contributor · 3 merged PRs (TorchDynamo & torch.distributions)
 research: Which component actually makes the decision? Auditing agentic LLM pipelines for AML · InsightX Lab
 open_to: SWE · Backend / Distributed Systems · AI/ML · Data Platform
 availability: Spring/Summer 2027 Co-op & Internships (Jan to Aug 2027, onsite) · Full-Time 2027
@@ -34,13 +34,13 @@ availability: Spring/Summer 2027 Co-op & Internships (Jan to Aug 2027, onsite) �
 <br>First author · **BANDIT Workshop @ IEEE BigData 2026** · accepted Nov 2026
 <br>Decision-source attribution for a GNN + RAG + LLM-judge AML pipeline on Elliptic++ and IBM AMLworld. With evidence held byte-identical and only the upstream score changed, verdicts flipped from **0/20 to 20/20**.
 
-🔥 **Open Source: [PyTorch](https://github.com/pytorch/pytorch)** (Oct 2026 to present)
+🔥 **Open Source: [PyTorch](https://github.com/pytorch/pytorch)** · 3 merged PRs (Oct 2026 to present)
 
 | Status | Contribution |
 |--------|--------------|
 | ✅ Merged | Fix flaky Wishart distribution test in `torch.distributions` ([#201929](https://github.com/pytorch/pytorch/pull/201929)) |
-| 🔄 Open | TorchDynamo fix for read-only function attributes ([#201925](https://github.com/pytorch/pytorch/pull/201925)) |
-| 🔄 Open | `torch.distributions` flaky test fix ([#201937](https://github.com/pytorch/pytorch/pull/201937)) |
+| ✅ Merged | TorchDynamo fix for read-only function attributes (`__closure__`) ([#201925](https://github.com/pytorch/pytorch/pull/201925)) |
+| ✅ Merged | Fix 15 flaky tests in `torch.distributions` ([#201937](https://github.com/pytorch/pytorch/pull/201937)) |
 | 🐛 Reported | TorchDynamo bug ([#202350](https://github.com/pytorch/pytorch/issues/202350)) |
 
 <img src="./divider.svg" width="100%" />
@@ -179,8 +179,8 @@ Processes a **10.65M-row / 433 MB** dataset three ways (sequential, single-node 
 </td>
 <td width="50%">
 
-🌍 **[Third-Place-Finder](https://github.com/vaishnavi1064/Third-Place-Finder-Web)** · AI Recommendation Engine
-<br>`React` `TypeScript` `Node.js` `Groq` `Leaflet` · [Live Demo](https://third-place-finder-web.vercel.app/)
+🌍 **[Third-Place-Finder](https://github.com/vaishnavi1064/Third-Place-Finder-Web)** · AI Recommendation Engine · [Live Demo](https://third-place-finder-web.vercel.app/)
+<br>`React` `TypeScript` `Node.js` `Groq` `Leaflet`
 
 Multi-stage RAG pipeline mapping natural language to structured categories, ranking the top 10 with LLM rationale. Fault-tolerant integration with exponential backoff and anti-hallucination prompting. Deployed on Vercel + Render + Aiven.
 
@@ -196,12 +196,12 @@ Multi-stage RAG pipeline mapping natural language to structured categories, rank
 
 **Agentic Bitcoin Transaction Monitoring** · InsightX Lab, Northeastern (Prof. Divya Chaudhary)
 
-I lead evaluation and research methods for a multi-agent AML pipeline: a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF, FinCEN, and EU AML text, with an entailment gate on retrieved regulation. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported honestly against a Random Forest baseline that beats it (F1 0.61). I also ported the full pipeline to **IBM AMLworld** as a second dataset.
+I lead evaluation and research methods for a multi-agent AML pipeline: a **Bi-EvolveGCN-O temporal graph scorer**, an **LLM investigator**, and a **RAG compliance agent** grounded in FATF, FinCEN, and EU AML text, with an entailment gate on retrieved regulation. The GNN reaches **F1 0.5644 / AUC 0.8665** on Elliptic++ (**203K transactions, 822K wallets, 49 timesteps**), reported alongside a stronger Random Forest baseline (F1 0.61) rather than hidden. I also ported the full pipeline to **IBM AMLworld** as a second dataset.
 
 My focus is a question most AI evaluations skip: **when a system makes a decision, which component actually made it?** I designed decision-source attribution, a causal method (actual cause, interventional Shapley, mediation) that traces this, and it changed how we read our own results:
 
 - **A fixed rule made every decision while the LLM got the credit.** With evidence held identical and only the upstream score changed, verdicts flipped from **0/20 to 20/20**. This replicated on AMLworld: the rule drove **8/8** recoveries and the LLM alone **0/20**.
-- **A silent configuration bug cut prompts off**, and **82% of cases got no verdict**. Fixing the context length restored verdicts in **120/120** cases.
+- **A silent configuration bug truncated prompts**, leaving **82% of cases with no verdict**. Fixing the context length restored verdicts in **120/120** cases.
 - **An effort-planning component cost 1.68x more** in API calls for no quality gain.
 - **I audited two published pipelines** (RiskTagger, WWW 2026; OCR-APT, ACM CCS 2025) for the same failure.
 
@@ -214,7 +214,7 @@ My focus is a question most AI evaluations skip: **when a system makes a decisio
 | Role | Station | Mission |
 |------|---------|---------|
 | **Graduate Researcher** · Evaluation & Research Methods Lead | InsightX Lab, Northeastern | First author, IEEE BigData 2026 workshop paper; built decision-source attribution for a multi-agent GNN + LLM + RAG AML pipeline |
-| **Open Source Contributor** | PyTorch | Merged fix in `torch.distributions`; open TorchDynamo PR and bug report |
+| **Open Source Contributor** | PyTorch | 3 merged PRs across TorchDynamo and `torch.distributions` (incl. 16 flaky-test fixes); reported a TorchDynamo bug |
 | **Co-Founder** | Dory.md | Solo-rebuilt the full product (frontend, backend, AI layer); live on Vercel + Render |
 | **AI/ML Intern** | IBM SkillsBuild | Built supervised ML models for healthcare risk prediction + IBM Cognos dashboards |
 | **Android Developer Program** | Google for Developers | Built an ERP app in Kotlin with MVVM, SQLite, REST APIs, unit & UI testing |
